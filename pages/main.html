@@ -13,27 +13,11 @@
 
     <link rel="stylesheet" href="../css/common.css">
     <link rel="stylesheet" href="../css/main.css">
+    <script src="../js/common.js"></script>
 </head>
 
 <body>
-    <div class="header">
-        <div class="bars"><img src="../images/bars.png" alt=""></div>
-        <div class="gnb">
-            <ul>
-                <li><a href="#x">Women</a></li>
-                <li><a href="#x">Men</a></li>
-                <li><a href="#x">Kids</a></li>
-                <li><a href="#x">Accessories</a></li>
-                <li><a href="#x">Sale</a></li>
-            </ul>
-            <div class="close"><img src="../images/close.png" alt=""></div>
-        </div>
-        <a href="#x" class="logo"><img src="../images/logo.png" alt=""></a>
-        <div class="top_menu">
-            <a href="#x"><img src="../images/search.png" alt=""></a>
-            <a href="#x"><img src="../images/cart.png" alt=""></a>
-        </div>
-    </div>
+    <div class="header"></div>
 
     <div class="main">
         <div class="hero">
@@ -160,94 +144,8 @@
     </div>
 
 
-    <div class="footer">
-        <div class="footer_menu">
-            <ul class="footer_gnb">
-                <li>
-                    <a href="#x">MY ACCOUNT</a>
-                    <ul>
-                        <li><a href="#x">로그인</a></li>
-                        <li><a href="#x">회원가입</a></li>
-                        <li><a href="#x">주문조회</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#x">빠른 지원</a>
-                    <ul>
-                        <li><a href="#x">배송 및 반품</a></li>
-                        <li><a href="#x">환불정책</a></li>
-                        <li><a href="#x">사이즈 가이드</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#x">ABOUT</a>
-                    <ul>
-                        <li><a href="#x">나이키</a></li>
-                        <li><a href="#x">언론 및 미디어</a></li>
-                        <li><a href="#x">나이키 멤버십</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#x">새로운 소식</a>
-                    <ul>
-                        <li><a href="#x">멤버 가입</a></li>
-                        <li><a href="#x">매장안내</a></li>
-                        <li><a href="#x">나이키 저널</a></li>
-                    </ul>
-                </li>
-            </ul>
-            <div class="sns">
-                <p>FOLLOW NIKE</p>
-                <div class="icons">
-                    <a href="#x"><img src="../images/sns_facebook.png" alt=""></a>
-                    <a href="#x"><img src="../images/sns_twitter.png" alt=""></a>
-                    <a href="#x"><img src="../images/sns_instagram.png" alt=""></a>
-                    <a href="#x"><img src="../images/sns_in.png" alt=""></a>
-                </div>
-            </div>
-        </div>
-        <div class="copyright">© 2050 Nike Wireframe Inc. All Rights Reserved.</div>
-    </div>
+    <div class="footer"></div>
 
-    <script>
-        $('.main_slide_01').slick({
-            autoplay: true,
-            slidesToShow: 4,
-            autoplaySpeed: 3000,
-            responsive: [
-                {
-                    breakpoint: 768,
-                    settings: {
-                        slidesToShow: 2,
-                    }
-                },
-            ]
-        });
-
-        $('.main_slide_02').slick({
-            autoplay: true,
-            slidesToShow: 4,
-            autoplaySpeed: 5000,
-            responsive: [
-                {
-                    breakpoint: 768,
-                    settings: {
-                        slidesToShow: 2,
-                    }
-                },
-            ]
-        });
-
-        $('.bars').on('click', function () {
-            $('.gnb').addClass('active')
-            $('.close').fadeIn()
-        })
-
-        $('.close').on('click', function () {
-            $('.gnb').removeClass('active')
-            $(this).hide()
-        })
-    </script>
 </body>
 
 </html>

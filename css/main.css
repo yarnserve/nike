@@ -80,9 +80,14 @@
 }
 
 .product ul {
-  display: grid;
+  /* display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 16px;
+  gap: 16px; */
+}
+
+.product ul li {
+  width: 308px;
+  margin-right: 16px;
 }
 
 .product ul li .photo {

@@ -5,6 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nike...</title>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
     <link rel="stylesheet" href="../css/common.css">
     <link rel="stylesheet" href="../css/main.css">
 </head>
@@ -79,12 +85,26 @@
                     <p>남성 신발</p>
                 </div>
             </li>
+            <li>
+                <div class="photo">5</div>
+                <div class="titles">
+                    <h5>나이키 덩크 로우 레트로</h5>
+                    <p>남성 신발</p>
+                </div>
+            </li>
+            <li>
+                <div class="photo">6</div>
+                <div class="titles">
+                    <h5>나이키 덩크 로우 레트로</h5>
+                    <p>남성 신발</p>
+                </div>
+            </li>
         </ul>
     </div>
 
     <div class="product">
         <h3>For Members</h3>
-        <ul class="main_slide_01">
+        <ul class="main_slide_02">
             <li>
                 <div class="photo">1</div>
                 <div class="titles">
@@ -113,6 +133,20 @@
                     <p>남성 신발</p>
                 </div>
             </li>
+            <li>
+                <div class="photo">5</div>
+                <div class="titles">
+                    <h5>나이키 덩크 로우 레트로</h5>
+                    <p>남성 신발</p>
+                </div>
+            </li>
+            <li>
+                <div class="photo">6</div>
+                <div class="titles">
+                    <h5>나이키 덩크 로우 레트로</h5>
+                    <p>남성 신발</p>
+                </div>
+            </li>
         </ul>
     </div>
 
@@ -124,7 +158,68 @@
     </div>
 
 
-    <div class="footer"></div>
+    <div class="footer">
+        <div class="footer_menu">
+            <ul class="footer_gnb">
+                <li>
+                    <a href="#x">MY ACCOUNT</a>
+                    <ul>
+                        <li><a href="#x">로그인</a></li>
+                        <li><a href="#x">회원가입</a></li>
+                        <li><a href="#x">주문조회</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#x">빠른 지원</a>
+                    <ul>
+                        <li><a href="#x">배송 및 반품</a></li>
+                        <li><a href="#x">환불정책</a></li>
+                        <li><a href="#x">사이즈 가이드</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#x">ABOUT</a>
+                    <ul>
+                        <li><a href="#x">나이키</a></li>
+                        <li><a href="#x">언론 및 미디어</a></li>
+                        <li><a href="#x">나이키 멤버십</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#x">새로운 소식</a>
+                    <ul>
+                        <li><a href="#x">멤버 가입</a></li>
+                        <li><a href="#x">매장안내</a></li>
+                        <li><a href="#x">나이키 저널</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="sns">
+                <p>FOLLOW NIKE</p>
+                <div class="icons">
+                    <a href="#x"><img src="../images/sns_facebook.png" alt=""></a>
+                    <a href="#x"><img src="../images/sns_twitter.png" alt=""></a>
+                    <a href="#x"><img src="../images/sns_instagram.png" alt=""></a>
+                    <a href="#x"><img src="../images/sns_in.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">© 2050 Nike Wireframe Inc. All Rights Reserved.</div>
+    </div>
+
+    <script>
+        $('.main_slide_01').slick({
+            autoplay: true,
+            slidesToShow: 4,
+            autoplaySpeed: 3000,
+        });
+
+        $('.main_slide_02').slick({
+            autoplay: true,
+            slidesToShow: 4,
+            autoplaySpeed: 5000,
+        });
+    </script>
 </body>
 
 </html>
